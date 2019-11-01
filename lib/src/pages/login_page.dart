@@ -127,7 +127,7 @@ class LoginPage extends StatelessWidget {
             decoration: InputDecoration(
               icon: Icon(Icons.alternate_email, color: Colors.deepPurple),
               hintText: 'ejemplo@correo.com',
-              labelText: 'Correo Electronico',
+              labelText: 'Correo Electrónico',
               counterText: snapshot.data,
               errorText: snapshot.error,
             ),

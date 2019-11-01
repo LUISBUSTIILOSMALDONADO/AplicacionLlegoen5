@@ -11,13 +11,13 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: Text('Inicio'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Email: ${bloc.email}'),
+            Text('Correo Electrónico: ${bloc.email}'),
             Text('Contraseña: ${bloc.password}'),
           ],          
         ),
